@@ -1,2 +1,2 @@
 # gitAcademia
-Exercício da academia .Net para trabalhar com o serviço Git e o portal GiHub
+Exercício da academia .Net para trabalhar com o serviço Git e o portal GitHub
