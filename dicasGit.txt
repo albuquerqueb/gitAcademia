@@ -1,0 +1,3 @@
+Criar um projeto no GitHub
+
+2°) Clonar o projeto de trabalho na sua estação de trabalho (priemira vez)
