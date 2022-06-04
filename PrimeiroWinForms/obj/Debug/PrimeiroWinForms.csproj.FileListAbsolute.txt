@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\PrimeiroWinForms\bin\Debug\PrimeiroWinForms.exe.config
+C:\Users\User\source\repos\PrimeiroWinForms\bin\Debug\PrimeiroWinForms.exe
+C:\Users\User\source\repos\PrimeiroWinForms\bin\Debug\PrimeiroWinForms.pdb
+C:\Users\User\source\repos\PrimeiroWinForms\obj\Debug\PrimeiroWinForms.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\PrimeiroWinForms\obj\Debug\PrimeiroWinForms.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\PrimeiroWinForms\obj\Debug\PrimeiroWinForms.Properties.Resources.resources
+C:\Users\User\source\repos\PrimeiroWinForms\obj\Debug\PrimeiroWinForms.csproj.GenerateResource.cache
+C:\Users\User\source\repos\PrimeiroWinForms\obj\Debug\PrimeiroWinForms.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\PrimeiroWinForms\obj\Debug\PrimeiroWinForms.exe
+C:\Users\User\source\repos\PrimeiroWinForms\obj\Debug\PrimeiroWinForms.pdb
+C:\Users\User\source\repos\PrimeiroWinForms\obj\Debug\PrimeiroWinForms.Form1.resources
