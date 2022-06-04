@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\bin\Debug\net6.0\ExercicioCarro.exe
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\bin\Debug\net6.0\ExercicioCarro.deps.json
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\bin\Debug\net6.0\ExercicioCarro.runtimeconfig.json
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\bin\Debug\net6.0\ExercicioCarro.dll
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\bin\Debug\net6.0\ExercicioCarro.pdb
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\obj\Debug\net6.0\ExercicioCarro.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\obj\Debug\net6.0\ExercicioCarro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\obj\Debug\net6.0\ExercicioCarro.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\obj\Debug\net6.0\ExercicioCarro.AssemblyInfo.cs
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\obj\Debug\net6.0\ExercicioCarro.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\obj\Debug\net6.0\ExercicioCarro.dll
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\obj\Debug\net6.0\refint\ExercicioCarro.dll
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\obj\Debug\net6.0\ExercicioCarro.pdb
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\obj\Debug\net6.0\ExercicioCarro.genruntimeconfig.cache
+C:\Users\User\source\repos\gitAcademia\ExercicioCarro\obj\Debug\net6.0\ref\ExercicioCarro.dll
