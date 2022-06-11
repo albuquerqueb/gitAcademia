@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\gitAcademia\ProjetoGaragem\bin\Debug\ProjetoGaragem.exe.config
+C:\Users\User\source\repos\gitAcademia\ProjetoGaragem\bin\Debug\ProjetoGaragem.exe
+C:\Users\User\source\repos\gitAcademia\ProjetoGaragem\bin\Debug\ProjetoGaragem.pdb
+C:\Users\User\source\repos\gitAcademia\ProjetoGaragem\obj\Debug\ProjetoGaragem.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\gitAcademia\ProjetoGaragem\obj\Debug\ProjetoGaragem.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\gitAcademia\ProjetoGaragem\obj\Debug\ProjetoGaragem.Form1.resources
+C:\Users\User\source\repos\gitAcademia\ProjetoGaragem\obj\Debug\ProjetoGaragem.Properties.Resources.resources
+C:\Users\User\source\repos\gitAcademia\ProjetoGaragem\obj\Debug\ProjetoGaragem.csproj.GenerateResource.cache
+C:\Users\User\source\repos\gitAcademia\ProjetoGaragem\obj\Debug\ProjetoGaragem.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\gitAcademia\ProjetoGaragem\obj\Debug\ProjetoGaragem.exe
+C:\Users\User\source\repos\gitAcademia\ProjetoGaragem\obj\Debug\ProjetoGaragem.pdb
