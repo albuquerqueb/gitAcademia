@@ -35,7 +35,9 @@
             this.btSair = new System.Windows.Forms.Button();
             this.pnMenu = new System.Windows.Forms.Panel();
             this.pnHome = new System.Windows.Forms.Panel();
+            this.pnHome2 = new System.Windows.Forms.Panel();
             this.pnMenu.SuspendLayout();
+            this.pnHome.SuspendLayout();
             this.SuspendLayout();
             // 
             // btCadastrarC
@@ -110,10 +112,18 @@
             // 
             // pnHome
             // 
-            this.pnHome.Location = new System.Drawing.Point(155, 1);
+            this.pnHome.Controls.Add(this.pnHome2);
+            this.pnHome.Location = new System.Drawing.Point(158, 1);
             this.pnHome.Name = "pnHome";
-            this.pnHome.Size = new System.Drawing.Size(802, 495);
+            this.pnHome.Size = new System.Drawing.Size(851, 495);
             this.pnHome.TabIndex = 5;
+            // 
+            // pnHome2
+            // 
+            this.pnHome2.Location = new System.Drawing.Point(8, 8);
+            this.pnHome2.Name = "pnHome2";
+            this.pnHome2.Size = new System.Drawing.Size(851, 495);
+            this.pnHome2.TabIndex = 6;
             // 
             // Form1
             // 
@@ -121,8 +131,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowText;
             this.ClientSize = new System.Drawing.Size(962, 495);
-            this.Controls.Add(this.pnHome);
             this.Controls.Add(this.pnMenu);
+            this.Controls.Add(this.pnHome);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ForeColor = System.Drawing.SystemColors.WindowText;
             this.Name = "Form1";
@@ -130,6 +140,7 @@
             this.TransparencyKey = System.Drawing.Color.White;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnMenu.ResumeLayout(false);
+            this.pnHome.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -143,6 +154,7 @@
         private System.Windows.Forms.Button btSair;
         private System.Windows.Forms.Panel pnMenu;
         private System.Windows.Forms.Panel pnHome;
+        private System.Windows.Forms.Panel pnHome2;
     }
 }
 

@@ -29,17 +29,17 @@ namespace Desafio_vendas
             command.Connection = cn;
             command.Transaction = tran;
             command.CommandType = CommandType.Text;
-            command.CommandText = "insert into cliente values (@nome, @email, @telefone, @estado, @cpf);";
+            command.CommandText = "insert into cliente(nome ,email ,telefone, estado) values (@nome, @email, @telefone, @estado);";
             command.Parameters.Add("@nome", SqlDbType.VarChar);
             command.Parameters.Add("@email", SqlDbType.VarChar);
             command.Parameters.Add("@telefone", SqlDbType.VarChar);
             command.Parameters.Add("@estado", SqlDbType.VarChar);
-            command.Parameters.Add("@cpf", SqlDbType.VarChar);
+           // command.Parameters.Add("@cpf", SqlDbType.VarChar);
             command.Parameters[0].Value = this.Nome;
             command.Parameters[1].Value = this.Email;
             command.Parameters[2].Value = this.Telefone;
             command.Parameters[3].Value = this.Estado;
-            command.Parameters[4].Value = this.Cpf;
+            //command.Parameters[4].Value = this.Cpf;
             try
             {
                 command.ExecuteNonQuery();

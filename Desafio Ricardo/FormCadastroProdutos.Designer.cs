@@ -43,19 +43,19 @@
             this.btHome1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.db_BancoDataSet1 = new Desafio_Ricardo.db_BancoDataSet1();
-            this.produtoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.produtoTableAdapter = new Desafio_Ricardo.db_BancoDataSet1TableAdapters.produtoTableAdapter();
             this.idProdutoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.codProdutoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nomeProdutoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.precoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.estoqueDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.marcaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.produtoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.db_BancoDataSet1 = new Desafio_Ricardo.db_BancoDataSet1();
+            this.produtoTableAdapter = new Desafio_Ricardo.db_BancoDataSet1TableAdapters.produtoTableAdapter();
             this.tbIdProdu = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_BancoDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.db_BancoDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblIdProdu
@@ -158,6 +158,7 @@
             this.btCadastrar.TabIndex = 10;
             this.btCadastrar.Text = "CADASTRAR";
             this.btCadastrar.UseVisualStyleBackColor = true;
+            this.btCadastrar.Click += new System.EventHandler(this.btCadastrar_Click);
             // 
             // btListas1
             // 
@@ -176,6 +177,7 @@
             this.btHome1.TabIndex = 12;
             this.btHome1.Text = "HOME";
             this.btHome1.UseVisualStyleBackColor = true;
+            this.btHome1.Click += new System.EventHandler(this.btHome1_Click);
             // 
             // label1
             // 
@@ -208,20 +210,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(644, 262);
             this.dataGridView1.TabIndex = 15;
-            // 
-            // db_BancoDataSet1
-            // 
-            this.db_BancoDataSet1.DataSetName = "db_BancoDataSet1";
-            this.db_BancoDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // produtoBindingSource
-            // 
-            this.produtoBindingSource.DataMember = "produto";
-            this.produtoBindingSource.DataSource = this.db_BancoDataSet1;
-            // 
-            // produtoTableAdapter
-            // 
-            this.produtoTableAdapter.ClearBeforeFill = true;
             // 
             // idProdutoDataGridViewTextBoxColumn
             // 
@@ -260,6 +248,20 @@
             this.marcaDataGridViewTextBoxColumn.HeaderText = "marca";
             this.marcaDataGridViewTextBoxColumn.Name = "marcaDataGridViewTextBoxColumn";
             // 
+            // produtoBindingSource
+            // 
+            this.produtoBindingSource.DataMember = "produto";
+            this.produtoBindingSource.DataSource = this.db_BancoDataSet1;
+            // 
+            // db_BancoDataSet1
+            // 
+            this.db_BancoDataSet1.DataSetName = "db_BancoDataSet1";
+            this.db_BancoDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // produtoTableAdapter
+            // 
+            this.produtoTableAdapter.ClearBeforeFill = true;
+            // 
             // tbIdProdu
             // 
             this.tbIdProdu.Location = new System.Drawing.Point(119, 57);
@@ -269,9 +271,8 @@
             // 
             // FormCadastroProdutos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(717, 495);
             this.Controls.Add(this.tbIdProdu);
             this.Controls.Add(this.dataGridView1);
@@ -288,13 +289,12 @@
             this.Controls.Add(this.lblNomeP);
             this.Controls.Add(this.lblCodE);
             this.Controls.Add(this.lblIdProdu);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormCadastroProdutos";
             this.Text = "FormCadastroProdutos";
             this.Load += new System.EventHandler(this.FormCadastroProdutos_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_BancoDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.produtoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.db_BancoDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

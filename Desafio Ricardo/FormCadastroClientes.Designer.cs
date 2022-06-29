@@ -44,24 +44,25 @@
             this.btListas = new System.Windows.Forms.Button();
             this.btHome = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.db_BancoDataSet = new Desafio_Ricardo.db_BancoDataSet();
-            this.clienteBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.clienteTableAdapter = new Desafio_Ricardo.db_BancoDataSetTableAdapters.clienteTableAdapter();
             this.idClienteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.telefoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.estadoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clienteBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.db_BancoDataSet = new Desafio_Ricardo.db_BancoDataSet();
+            this.clienteTableAdapter = new Desafio_Ricardo.db_BancoDataSetTableAdapters.clienteTableAdapter();
+            this.tbEstado = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_BancoDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.db_BancoDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // tbId
             // 
-            this.tbId.Location = new System.Drawing.Point(60, 182);
+            this.tbId.Location = new System.Drawing.Point(24, 219);
             this.tbId.Name = "tbId";
-            this.tbId.Size = new System.Drawing.Size(153, 20);
+            this.tbId.Size = new System.Drawing.Size(18, 20);
             this.tbId.TabIndex = 0;
             // 
             // tbCpf
@@ -140,9 +141,9 @@
             this.lblId.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblId.Location = new System.Drawing.Point(12, 185);
             this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(21, 13);
+            this.lblId.Size = new System.Drawing.Size(54, 13);
             this.lblId.TabIndex = 9;
-            this.lblId.Text = "ID:";
+            this.lblId.Text = "ESTADO:";
             // 
             // label1
             // 
@@ -165,7 +166,7 @@
             this.btCadastrar1.TabIndex = 11;
             this.btCadastrar1.Text = "CADASTRAR";
             this.btCadastrar1.UseVisualStyleBackColor = false;
-            this.btCadastrar1.Click += new System.EventHandler(this.btCadastrar1_Click);
+            this.btCadastrar1.Click += new System.EventHandler(this.btCadastrar_Click);
             // 
             // btListas
             // 
@@ -184,6 +185,7 @@
             this.btHome.TabIndex = 13;
             this.btHome.Text = "HOME";
             this.btHome.UseVisualStyleBackColor = true;
+            this.btHome.Click += new System.EventHandler(this.btHome_Click);
             // 
             // dataGridView1
             // 
@@ -198,22 +200,8 @@
             this.dataGridView1.DataSource = this.clienteBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(15, 219);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(450, 126);
+            this.dataGridView1.Size = new System.Drawing.Size(549, 264);
             this.dataGridView1.TabIndex = 14;
-            // 
-            // db_BancoDataSet
-            // 
-            this.db_BancoDataSet.DataSetName = "db_BancoDataSet";
-            this.db_BancoDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // clienteBindingSource
-            // 
-            this.clienteBindingSource.DataMember = "cliente";
-            this.clienteBindingSource.DataSource = this.db_BancoDataSet;
-            // 
-            // clienteTableAdapter
-            // 
-            this.clienteTableAdapter.ClearBeforeFill = true;
             // 
             // idClienteDataGridViewTextBoxColumn
             // 
@@ -246,12 +234,34 @@
             this.estadoDataGridViewTextBoxColumn.HeaderText = "estado";
             this.estadoDataGridViewTextBoxColumn.Name = "estadoDataGridViewTextBoxColumn";
             // 
+            // clienteBindingSource
+            // 
+            this.clienteBindingSource.DataMember = "cliente";
+            this.clienteBindingSource.DataSource = this.db_BancoDataSet;
+            // 
+            // db_BancoDataSet
+            // 
+            this.db_BancoDataSet.DataSetName = "db_BancoDataSet";
+            this.db_BancoDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // clienteTableAdapter
+            // 
+            this.clienteTableAdapter.ClearBeforeFill = true;
+            // 
+            // tbEstado
+            // 
+            this.tbEstado.Location = new System.Drawing.Point(72, 179);
+            this.tbEstado.Name = "tbEstado";
+            this.tbEstado.Size = new System.Drawing.Size(98, 20);
+            this.tbEstado.TabIndex = 15;
+            // 
             // FormCadastroClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackColor = System.Drawing.SystemColors.WindowText;
             this.ClientSize = new System.Drawing.Size(717, 495);
+            this.Controls.Add(this.tbEstado);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btHome);
             this.Controls.Add(this.btListas);
@@ -274,8 +284,8 @@
             this.Text = "FormsCadastroCliente";
             this.Load += new System.EventHandler(this.FormCadastroClientes_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_BancoDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.db_BancoDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -306,5 +316,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn telefoneDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn estadoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.TextBox tbEstado;
     }
 }

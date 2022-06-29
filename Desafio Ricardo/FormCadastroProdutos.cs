@@ -62,5 +62,15 @@ namespace Desafio_vendas
             this.produtoTableAdapter.Fill(this.db_BancoDataSet1.produto);
 
         }
+
+        private void btCadastrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btHome1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

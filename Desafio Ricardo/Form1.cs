@@ -56,8 +56,12 @@ namespace Desafio_Ricardo
 
         private void btCadastrarC_Click(object sender, EventArgs e)
         {
-            ActiveButton(btCadastrarC);
-            FormShow(new FormCadastroClientes());
+            /* ActiveButton(btCadastrarC);
+             FormShow(new FormCadastroClientes()); */
+
+            FormCadastroClientes frmcd = new FormCadastroClientes();
+            frmcd.Show();
+
         }
 
         private void btCadastrarP_Click(object sender, EventArgs e)

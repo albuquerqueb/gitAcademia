@@ -33,7 +33,8 @@ namespace Desafio_vendas
                 Cpf = tbCpf.Text,
                 Email = tbEmail.Text,
                 Nome = tbNome.Text,
-                Telefone = tbTel.Text
+                Telefone = tbTel.Text,
+                Estado = tbEstado.Text
             };
             if (String.IsNullOrEmpty(tbNome.Text))
             {
@@ -66,15 +67,16 @@ namespace Desafio_vendas
 
         }
 
-        private void btCadastrar1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void FormCadastroClientes_Load_1(object sender, EventArgs e)
         {
             // TODO: esta linha de código carrega dados na tabela 'db_BancoDataSet.cliente'. Você pode movê-la ou removê-la conforme necessário.
             this.clienteTableAdapter.Fill(this.db_BancoDataSet.cliente);
+
+        }
+
+        private void btHome_Click(object sender, EventArgs e)
+        {
+            this.Close();
 
         }
     }
