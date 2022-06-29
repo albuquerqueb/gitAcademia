@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\bin\Debug\Desafio Ricardo.exe.config
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\bin\Debug\Desafio Ricardo.exe
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\bin\Debug\Desafio Ricardo.pdb
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Debug\Desafio Ricardo.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Debug\Desafio Ricardo.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Debug\Desafio_Ricardo.Form1.resources
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Debug\Desafio_Ricardo.FormListas.resources
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Debug\Desafio_Ricardo.FormsCadastroCliente.resources
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Debug\Desafio_Ricardo.FormsCadastroProduto.resources
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Debug\Desafio_Ricardo.FormsListasProduto.resources
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Debug\Desafio_Ricardo.Properties.Resources.resources
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Debug\Desafio Ricardo.csproj.GenerateResource.cache
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Debug\Desafio Ricardo.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Debug\Desafio Ricardo.exe
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Debug\Desafio Ricardo.pdb

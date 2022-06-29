@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\bin\Release\Desafio Ricardo.exe.config
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\bin\Release\Desafio Ricardo.exe
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\bin\Release\Desafio Ricardo.pdb
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Release\Desafio Ricardo.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Release\Desafio Ricardo.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Release\Desafio_Ricardo.Form1.resources
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Release\Desafio_Ricardo.Properties.Resources.resources
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Release\Desafio Ricardo.csproj.GenerateResource.cache
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Release\Desafio Ricardo.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Release\Desafio Ricardo.exe
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Release\Desafio Ricardo.pdb
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Release\Desafio_vendas.FormCadastroProdutos.resources
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Release\Desafio_vendas.FormCadastroClientes.resources
+C:\Users\User\source\repos\gitAcademia\Desafio Ricardo\obj\Release\Desafio_vendas.FormVendas.resources
