@@ -1,9 +1,9 @@
 ﻿@model Projeto_final_Atos.Models.Pacote
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edite";
 }
-
+<div class="container">
 <h1>Edit</h1>
 
 <h4>Pacote</h4>
@@ -56,9 +56,9 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Voltar</a>
 </div>
-
+</div>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

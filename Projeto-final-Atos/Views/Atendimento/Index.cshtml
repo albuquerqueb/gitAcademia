@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<Projeto_final_Atos.Models.Atendimento>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Atendimento";
 }
+<div class="container">
 
-<h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Novo Atendimento</a>
 </p>
 <table class="table">
     <thead>
@@ -31,7 +31,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Usuario.data_nascimento)
+                @Html.DisplayFor(modelItem => item.Usuario.idUsuario)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.nome)
@@ -51,3 +51,4 @@
 }
     </tbody>
 </table>
+</div>

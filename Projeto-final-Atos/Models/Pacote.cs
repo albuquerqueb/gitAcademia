@@ -21,11 +21,17 @@ namespace Projeto_final_Atos.Models
         [Display(Name = "Id do Atendimento")]
         public int idAtendimento { get; set; }
         public virtual Atendimento Atendimento { get; set; }
+        [Display(Name = "Nome")]
         public string nome { get; set; }
+        [Display(Name = "Origem")]
         public string origem { get; set; }
+        [Display(Name = "Destino")]
         public string destino { get; set; }
+        [Display(Name = "Saida")]
         public string saida { get; set; }
+        [Display(Name = "Retorno")]
         public string retorno { get; set; }
+        [Display(Name = "Preço")]
         public double preco { get; set; }
 
     }

@@ -16,12 +16,15 @@ namespace Projeto_final_Atos.Models
         [Key()]
         public int idUsuario { get; set; }
         [Required]
+        [Display(Name = "Nome")]
         public string nome { get; set; }
         [Required]
+        [Display(Name = "Data de Nascimento")]
         public string data_nascimento { get; set; }
         [Required]
+        [Display(Name = "Senha")]
         public string senha { get; set; }
+        [Display(Name = "Conta")]
         public string conta { get; set; }
-        public string login { get; set; }
     }
 }

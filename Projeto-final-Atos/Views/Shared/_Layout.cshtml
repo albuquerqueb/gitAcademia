@@ -7,43 +7,38 @@
     <meta name="author" content="Luara Albuquerque">
     <title>@ViewData["Title"] - Meu destino</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/estilo.css" />
-    <link rel="icon" type="image/png" href="~/img/icone.png">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Projeto-final-Atos.styles.css" asp-append-version="true" />
 </head>
 <body>
     <header>
-        <nav class="nav-bar">
-            <div>
-            <a asp-action="Index"><img src="~/img/logo-branco.png" alt="Logo" title="Meu destino" class="logo" style="width:110px; height: 40px;"></a>
-</div>
-    <div class="right-items">
-    <div class="login-text">
- 
+       <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary" asp-controller="Pacote" asp-action="Index">Pacote</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary" asp-area="" asp-controller="Atendimento" asp-action="Index">Atendimento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary" asp-area="" asp-controller="Usuario" asp-action="Index">Usuario</a>
+                        </li>
 
-                <a asp-action="Logout"><img class="icones-img" title="Logout" src="~/img/icone-logout.png" id="logo2" style="position:absolute; right:175px;  top: 25px;"></a>
-                <span style="font-family:'Poppins', sans-serif; color: white; position:absolute; right:120px;  top: 25px; font-size: 15px;">@ViewBag.Login</span>
-              
-
-    </div>   
-    <div class="menu-hamburger">   
-    <button id="button-hamburger"><img alt="Menu Hamburger" title="Menu" src="~/img/icone-hamburger.png" class="icones-img"></button>
-    <ul>
-        <li><a asp-controller="Home"  asp-action="Index">Home</a></li>
-        <li><a asp-controller="Pacote" asp-action="Index">Pacotes</a></li>
-        <li><a asp-controller="Atendimento" asp-action="Index">Atendimento</a></li>
-        <li><a asp-controller="Cadastro" asp-action="Index">Cadastro</a></li>
-        <li><a asp-controller="Login" asp-action="Index">Login</a></li>
-        
-    </ul>
-    </div> 
-    </div>      
+                    </ul>
+                </div>
+            </div>
         </nav>
+    </div>
     </header>
     <div>
         <main>
@@ -52,7 +47,7 @@
     </div>
 
     <footer>
-        <p>Meu destino -  © Copyright 2022</p>
+        <p>Meu destino - © Copyright 2022</p>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

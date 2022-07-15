@@ -1,9 +1,9 @@
 ﻿@model Projeto_final_Atos.Models.Pacote
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes";
 }
-
+<div class="container">
 <h1>Details</h1>
 
 <div>
@@ -56,5 +56,6 @@
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.idPacotes">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Voltar</a>
+</div>
 </div>

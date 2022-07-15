@@ -59,14 +59,13 @@ namespace Projeto_final_Atos.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("idPacotes,idAtendimento,nome,origem,destino,saida,retorno,preco")] Pacote pacote)
+        public async Task<IActionResult> Create(Pacote pacote)
         {
-            if (ModelState.IsValid)
-            {
+           
                 _context.Add(pacote);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
+            
             ViewData["idAtendimento"] = new SelectList(_context.Atendimento, "IdAtendimento", "IdAtendimento", pacote.idAtendimento);
             return View(pacote);
         }

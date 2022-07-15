@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<Projeto_final_Atos.Models.Usuario>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Usuario";
 }
+<div class="container">
 
-<h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Cadastro de Usuario</a>
 </p>
 <table class="table">
     <thead>
@@ -23,9 +23,6 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.conta)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.login)
             </th>
             <th></th>
         </tr>
@@ -45,9 +42,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.conta)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.login)
-            </td>
+            
             <td>
                 <a asp-action="Edit" asp-route-id="@item.idUsuario">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.idUsuario">Details</a> |
@@ -57,3 +52,4 @@
 }
     </tbody>
 </table>
+</div>

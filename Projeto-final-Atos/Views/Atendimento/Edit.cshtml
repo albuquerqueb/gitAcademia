@@ -1,9 +1,9 @@
 ﻿@model Projeto_final_Atos.Models.Atendimento
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edite";
 }
-
+<div class="container">
 <h1>Edit</h1>
 
 <h4>Atendimento</h4>
@@ -43,7 +43,7 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
-
+</div>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

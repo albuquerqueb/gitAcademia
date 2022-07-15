@@ -50,7 +50,7 @@ namespace Projeto_final_Atos.Controllers
         // GET: Atendimento/Create
         public IActionResult Create()
         {
-            ViewData["idUsuario"] = new SelectList(_context.Usuario, "idUsuario", "data_nascimento");
+            ViewData["idUsuario"] = new SelectList(_context.Usuario, "idUsuario", "idUsuario");
             return View();
         }
 
@@ -59,15 +59,14 @@ namespace Projeto_final_Atos.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdAtendimento,idUsuario,nome,email,duvida")] Atendimento atendimento)
+        public async Task<IActionResult> Create(Atendimento atendimento)
         {
-            if (ModelState.IsValid)
-            {
+            
                 _context.Add(atendimento);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["idUsuario"] = new SelectList(_context.Usuario, "idUsuario", "data_nascimento", atendimento.idUsuario);
+            
+            ViewData["idUsuario"] = new SelectList(_context.Usuario, "idUsuario", "idUsuario", atendimento.idUsuario);
             return View(atendimento);
         }
 
@@ -84,7 +83,7 @@ namespace Projeto_final_Atos.Controllers
             {
                 return NotFound();
             }
-            ViewData["idUsuario"] = new SelectList(_context.Usuario, "idUsuario", "data_nascimento", atendimento.idUsuario);
+            ViewData["idUsuario"] = new SelectList(_context.Usuario, "idUsuario", "idUsuario", atendimento.idUsuario);
             return View(atendimento);
         }
 
@@ -120,7 +119,7 @@ namespace Projeto_final_Atos.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["idUsuario"] = new SelectList(_context.Usuario, "idUsuario", "data_nascimento", atendimento.idUsuario);
+            ViewData["idUsuario"] = new SelectList(_context.Usuario, "idUsuario", "idUsuario", atendimento.idUsuario);
             return View(atendimento);
         }
 

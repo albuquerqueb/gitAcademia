@@ -20,19 +20,12 @@ namespace Projeto_final_Atos.Controllers
         public IActionResult Pacote()
         {
             return View();
-        }public IActionResult Atendimento()
+        }
+        public IActionResult Atendimento()
         {
             return View();
         }
-        public IActionResult Cadastro()
-        {
-            return View();
-        }
-        public IActionResult Login()
-        {
-            return View();
-        }
-        public IActionResult Privacy()
+        public IActionResult Usuario()
         {
             return View();
         }

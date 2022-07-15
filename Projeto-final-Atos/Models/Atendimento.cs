@@ -13,8 +13,11 @@ public class Atendimento
     [Display(Name = "Id do Usuario")]
     public int idUsuario { get; set; }
     public virtual Usuario Usuario { get; set; }
+    [Display(Name = "Nome")]
     public string nome { get; set; }
+    [Display(Name = "E-mail")]
     public string email { get; set; }
+    [Display(Name = "Duvida")]
     public string duvida { get; set; }
 
 }
