@@ -21,5 +21,8 @@ namespace Projeto_final_Atos.Data
 
 
         public DbSet<Projeto_final_Atos.Models.Pacote>? Pacote { get; set; }
+
+
+        public DbSet<Projeto_final_Atos.Models.Cadastrar>? Cadastrar { get; set; }
     }
 }
