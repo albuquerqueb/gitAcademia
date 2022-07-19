@@ -18,7 +18,6 @@ namespace Projeto_final_Atos.Migrations
                     data_nascimento = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     senha = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     conta = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    login = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
